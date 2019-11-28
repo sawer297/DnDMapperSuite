@@ -10,7 +10,8 @@ followed by one of the following letters;
 - O - option systems (doors, min/max elevation, chests)
 - S - saving system
 
-then add a "-" with a three digit number starting at 001 or a 't' if branch is do be a testing branch
+then add a "-" with a three digit number starting at 001
+if the branch is to be used for testing purposes please add a 't' to the end
 so a branch working on the Map Point plotting system would be MP-001
 
 when working on the Campaign editing section start the branch with a 'C'
@@ -21,8 +22,21 @@ followed by one of the following letters;
 - I - Interactables (traps, items, doors)
 - R - remote access
 
-then add a "-" with a three digit number starting at 001 or a 't' if branch is do be a testing branch
+then add a "-" with a three digit number starting at 001
+if the branch is to be used for testing purposes please add a 't' to the end
 so a branch working on the campaign player mechanic system would be CP-001
 
-once your make a branch, please record the number in the tracking.txt so that that other coders can see what numbers have been used
+once your make a branch, please increment the number here so that that other coders can see what numbers are to be used next
 
+Next Map Branch #'s
+- Point Plotting  - MP-001
+- Edge Toggling   - ME-001
+- Options System  - MO-001
+- Saving System   - MS-001
+
+Next Campaign Branch #'s
+- Maps            - CM-001
+- Player          - CP-001
+- Enemies         - CE-001
+- Items           - CI-001
+- Remote          - CR-001
