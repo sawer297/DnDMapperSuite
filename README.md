@@ -12,7 +12,9 @@ followed by one of the following letters;
 - S - saving system
 
 then add a "-" with a three digit number starting at 001
+
 if the branch is to be used for testing purposes please add a 't' to the end
+
 so a branch working on the Map Point plotting system would be MP-001
 
 # Campaigns
@@ -25,8 +27,12 @@ followed by one of the following letters;
 - R - remote access
 
 then add a "-" with a three digit number starting at 001
+
 if the branch is to be used for testing purposes please add a 't' to the end
+
 so a branch working on the campaign player mechanic system would be CP-001
+
+----------------------------------------------------------------------------------
 
 once your make a branch, please increment the number here so that that other coders can see what numbers are to be used next
 
