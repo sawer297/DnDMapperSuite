@@ -37,7 +37,7 @@ so a branch working on the campaign player mechanic system would be CP-001
 once your make a branch, please increment the number here so that that other coders can see what numbers are to be used next
 
 ## Next Map Branch #'s
-- Point Plotting  - MP-001
+- Point Plotting  - MP-002
 - Edge Toggling   - ME-001
 - Options System  - MO-001
 - Saving System   - MS-001
