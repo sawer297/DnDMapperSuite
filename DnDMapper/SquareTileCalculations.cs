@@ -38,5 +38,30 @@ namespace DnDMapper
             }//for - Y loop
         }//calculateTileCoords()
 
-    }
+        private double calcPercentage(int numTile, int kurPnt)
+        {
+            return (1 / (numTile - 1f)) * kurPnt;
+        }//calcPercentage()
+
+        private int calcXCoord(Point[] cnrPnt, double Px, double Py)
+        {
+            double x = (cnrPnt[0].X + (cnrPnt[1].X - cnrPnt[0].X) * Px) * (1 - Py) + (cnrPnt[2].X + (cnrPnt[3].X - cnrPnt[2].X) * Px) * Py;
+            int r = Convert.ToInt32(x);
+            return r;
+        }//calcXCoord()
+
+        private int calcYCoord(Point[] cnrPnt, double Px, double Py)
+        {
+            double y = (cnrPnt[0].Y + (cnrPnt[2].Y - cnrPnt[0].Y) * Py) * (1 - Px) + (cnrPnt[1].Y + (cnrPnt[3].Y - cnrPnt[1].Y) * Py) * Px;
+            int r = Convert.ToInt32(y);
+            return r;
+        }//calcYCoord()
+
+        // for reference later, SBL 11.29.19
+        // cnrPnt[0] = northwest
+        // cnrPnt[1] = northeast
+        // cnrPnt[2] = southwest
+        // cnrPnt[3] = southeast
+
+    }//class SquareTileCalculations
 }

@@ -118,9 +118,10 @@
             // 
             this.pnlMapPaneCompass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.pnlMapPaneCompass.Controls.Add(this.tlpnlCompass);
-            this.pnlMapPaneCompass.Location = new System.Drawing.Point(3, 3);
+            this.pnlMapPaneCompass.Location = new System.Drawing.Point(6, 6);
+            this.pnlMapPaneCompass.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapPaneCompass.Name = "pnlMapPaneCompass";
-            this.pnlMapPaneCompass.Size = new System.Drawing.Size(225, 199);
+            this.pnlMapPaneCompass.Size = new System.Drawing.Size(450, 386);
             this.pnlMapPaneCompass.TabIndex = 0;
             // 
             // tlpnlCompass
@@ -134,7 +135,7 @@
             this.tlpnlCompass.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpnlCompass.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpnlCompass.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpnlCompass.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpnlCompass.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tlpnlCompass.Controls.Add(this.picCompassInNorth, 2, 1);
             this.tlpnlCompass.Controls.Add(this.picCompassOutNorth, 2, 0);
             this.tlpnlCompass.Controls.Add(this.picCompassInWest, 1, 2);
@@ -144,7 +145,8 @@
             this.tlpnlCompass.Controls.Add(this.picCompassInSouth, 2, 3);
             this.tlpnlCompass.Controls.Add(this.picCompassOutSouth, 2, 4);
             this.tlpnlCompass.Controls.Add(this.picCompassCenter, 2, 2);
-            this.tlpnlCompass.Location = new System.Drawing.Point(3, 3);
+            this.tlpnlCompass.Location = new System.Drawing.Point(6, 6);
+            this.tlpnlCompass.Margin = new System.Windows.Forms.Padding(6);
             this.tlpnlCompass.Name = "tlpnlCompass";
             this.tlpnlCompass.RowCount = 5;
             this.tlpnlCompass.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -152,7 +154,7 @@
             this.tlpnlCompass.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpnlCompass.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpnlCompass.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpnlCompass.Size = new System.Drawing.Size(219, 193);
+            this.tlpnlCompass.Size = new System.Drawing.Size(438, 374);
             this.tlpnlCompass.TabIndex = 0;
             // 
             // picCompassInNorth
@@ -161,9 +163,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassInNorth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.picCompassInNorth.Location = new System.Drawing.Point(89, 41);
+            this.picCompassInNorth.Location = new System.Drawing.Point(180, 80);
+            this.picCompassInNorth.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassInNorth.Name = "picCompassInNorth";
-            this.picCompassInNorth.Size = new System.Drawing.Size(37, 32);
+            this.picCompassInNorth.Size = new System.Drawing.Size(75, 62);
             this.picCompassInNorth.TabIndex = 0;
             this.picCompassInNorth.TabStop = false;
             // 
@@ -173,9 +176,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassOutNorth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.picCompassOutNorth.Location = new System.Drawing.Point(89, 3);
+            this.picCompassOutNorth.Location = new System.Drawing.Point(180, 6);
+            this.picCompassOutNorth.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassOutNorth.Name = "picCompassOutNorth";
-            this.picCompassOutNorth.Size = new System.Drawing.Size(37, 32);
+            this.picCompassOutNorth.Size = new System.Drawing.Size(75, 62);
             this.picCompassOutNorth.TabIndex = 1;
             this.picCompassOutNorth.TabStop = false;
             // 
@@ -185,9 +189,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassInWest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.picCompassInWest.Location = new System.Drawing.Point(46, 79);
+            this.picCompassInWest.Location = new System.Drawing.Point(93, 154);
+            this.picCompassInWest.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassInWest.Name = "picCompassInWest";
-            this.picCompassInWest.Size = new System.Drawing.Size(37, 32);
+            this.picCompassInWest.Size = new System.Drawing.Size(75, 62);
             this.picCompassInWest.TabIndex = 2;
             this.picCompassInWest.TabStop = false;
             // 
@@ -197,9 +202,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassOutWest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.picCompassOutWest.Location = new System.Drawing.Point(3, 79);
+            this.picCompassOutWest.Location = new System.Drawing.Point(6, 154);
+            this.picCompassOutWest.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassOutWest.Name = "picCompassOutWest";
-            this.picCompassOutWest.Size = new System.Drawing.Size(37, 32);
+            this.picCompassOutWest.Size = new System.Drawing.Size(75, 62);
             this.picCompassOutWest.TabIndex = 3;
             this.picCompassOutWest.TabStop = false;
             // 
@@ -209,9 +215,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassInEast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.picCompassInEast.Location = new System.Drawing.Point(132, 79);
+            this.picCompassInEast.Location = new System.Drawing.Point(267, 154);
+            this.picCompassInEast.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassInEast.Name = "picCompassInEast";
-            this.picCompassInEast.Size = new System.Drawing.Size(37, 32);
+            this.picCompassInEast.Size = new System.Drawing.Size(75, 62);
             this.picCompassInEast.TabIndex = 4;
             this.picCompassInEast.TabStop = false;
             // 
@@ -221,9 +228,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassOutEast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.picCompassOutEast.Location = new System.Drawing.Point(175, 79);
+            this.picCompassOutEast.Location = new System.Drawing.Point(354, 154);
+            this.picCompassOutEast.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassOutEast.Name = "picCompassOutEast";
-            this.picCompassOutEast.Size = new System.Drawing.Size(41, 32);
+            this.picCompassOutEast.Size = new System.Drawing.Size(78, 62);
             this.picCompassOutEast.TabIndex = 5;
             this.picCompassOutEast.TabStop = false;
             // 
@@ -233,9 +241,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassInSouth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.picCompassInSouth.Location = new System.Drawing.Point(89, 117);
+            this.picCompassInSouth.Location = new System.Drawing.Point(180, 228);
+            this.picCompassInSouth.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassInSouth.Name = "picCompassInSouth";
-            this.picCompassInSouth.Size = new System.Drawing.Size(37, 32);
+            this.picCompassInSouth.Size = new System.Drawing.Size(75, 62);
             this.picCompassInSouth.TabIndex = 6;
             this.picCompassInSouth.TabStop = false;
             // 
@@ -245,9 +254,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassOutSouth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.picCompassOutSouth.Location = new System.Drawing.Point(89, 155);
+            this.picCompassOutSouth.Location = new System.Drawing.Point(180, 302);
+            this.picCompassOutSouth.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassOutSouth.Name = "picCompassOutSouth";
-            this.picCompassOutSouth.Size = new System.Drawing.Size(37, 35);
+            this.picCompassOutSouth.Size = new System.Drawing.Size(75, 66);
             this.picCompassOutSouth.TabIndex = 7;
             this.picCompassOutSouth.TabStop = false;
             // 
@@ -257,9 +267,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picCompassCenter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.picCompassCenter.Location = new System.Drawing.Point(89, 79);
+            this.picCompassCenter.Location = new System.Drawing.Point(180, 154);
+            this.picCompassCenter.Margin = new System.Windows.Forms.Padding(6);
             this.picCompassCenter.Name = "picCompassCenter";
-            this.picCompassCenter.Size = new System.Drawing.Size(37, 32);
+            this.picCompassCenter.Size = new System.Drawing.Size(75, 62);
             this.picCompassCenter.TabIndex = 8;
             this.picCompassCenter.TabStop = false;
             // 
@@ -267,9 +278,10 @@
             // 
             this.pnlMapPaneControls.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pnlMapPaneControls.Controls.Add(this.tabControls);
-            this.pnlMapPaneControls.Location = new System.Drawing.Point(3, 208);
+            this.pnlMapPaneControls.Location = new System.Drawing.Point(6, 403);
+            this.pnlMapPaneControls.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapPaneControls.Name = "pnlMapPaneControls";
-            this.pnlMapPaneControls.Size = new System.Drawing.Size(265, 661);
+            this.pnlMapPaneControls.Size = new System.Drawing.Size(530, 1281);
             this.pnlMapPaneControls.TabIndex = 1;
             // 
             // tabControls
@@ -278,20 +290,22 @@
             this.tabControls.Controls.Add(this.tabMapDoor);
             this.tabControls.Controls.Add(this.tabMapJump);
             this.tabControls.Controls.Add(this.tabMapSave);
-            this.tabControls.Location = new System.Drawing.Point(3, 3);
+            this.tabControls.Location = new System.Drawing.Point(6, 6);
+            this.tabControls.Margin = new System.Windows.Forms.Padding(6);
             this.tabControls.Name = "tabControls";
             this.tabControls.SelectedIndex = 0;
-            this.tabControls.Size = new System.Drawing.Size(259, 655);
+            this.tabControls.Size = new System.Drawing.Size(518, 1269);
             this.tabControls.TabIndex = 0;
             // 
             // tabMapInfo
             // 
             this.tabMapInfo.Controls.Add(this.pnlMapInfoControls);
             this.tabMapInfo.Controls.Add(this.lblMapInfoInstructions);
-            this.tabMapInfo.Location = new System.Drawing.Point(4, 25);
+            this.tabMapInfo.Location = new System.Drawing.Point(10, 48);
+            this.tabMapInfo.Margin = new System.Windows.Forms.Padding(6);
             this.tabMapInfo.Name = "tabMapInfo";
-            this.tabMapInfo.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMapInfo.Size = new System.Drawing.Size(251, 626);
+            this.tabMapInfo.Padding = new System.Windows.Forms.Padding(6);
+            this.tabMapInfo.Size = new System.Drawing.Size(498, 1211);
             this.tabMapInfo.TabIndex = 0;
             this.tabMapInfo.Text = "Info";
             this.tabMapInfo.UseVisualStyleBackColor = true;
@@ -318,9 +332,10 @@
             this.pnlMapInfoControls.Controls.Add(this.lblMapInfoType);
             this.pnlMapInfoControls.Controls.Add(this.lblMapInfoNumTileHigh);
             this.pnlMapInfoControls.Controls.Add(this.txtbxNumTileHigh);
-            this.pnlMapInfoControls.Location = new System.Drawing.Point(6, 166);
+            this.pnlMapInfoControls.Location = new System.Drawing.Point(12, 322);
+            this.pnlMapInfoControls.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapInfoControls.Name = "pnlMapInfoControls";
-            this.pnlMapInfoControls.Size = new System.Drawing.Size(239, 454);
+            this.pnlMapInfoControls.Size = new System.Drawing.Size(476, 878);
             this.pnlMapInfoControls.TabIndex = 1;
             // 
             // btnMapInfoImageResize
@@ -328,9 +343,10 @@
             this.btnMapInfoImageResize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMapInfoImageResize.AutoSize = true;
             this.btnMapInfoImageResize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapInfoImageResize.Location = new System.Drawing.Point(113, 3);
+            this.btnMapInfoImageResize.Location = new System.Drawing.Point(232, 6);
+            this.btnMapInfoImageResize.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapInfoImageResize.Name = "btnMapInfoImageResize";
-            this.btnMapInfoImageResize.Size = new System.Drawing.Size(121, 32);
+            this.btnMapInfoImageResize.Size = new System.Drawing.Size(236, 61);
             this.btnMapInfoImageResize.TabIndex = 20;
             this.btnMapInfoImageResize.Text = "Resize image";
             this.btnMapInfoImageResize.UseVisualStyleBackColor = true;
@@ -341,9 +357,10 @@
             this.panel2.Controls.Add(this.rbtnHexHor);
             this.panel2.Controls.Add(this.rbtnHexVer);
             this.panel2.Controls.Add(this.rbtnSquare);
-            this.panel2.Location = new System.Drawing.Point(3, 253);
+            this.panel2.Location = new System.Drawing.Point(6, 490);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(231, 84);
+            this.panel2.Size = new System.Drawing.Size(462, 163);
             this.panel2.TabIndex = 13;
             // 
             // rbtnHexHor
@@ -351,9 +368,10 @@
             this.rbtnHexHor.AutoSize = true;
             this.rbtnHexHor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtnHexHor.ForeColor = System.Drawing.Color.Red;
-            this.rbtnHexHor.Location = new System.Drawing.Point(17, 59);
+            this.rbtnHexHor.Location = new System.Drawing.Point(34, 114);
+            this.rbtnHexHor.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnHexHor.Name = "rbtnHexHor";
-            this.rbtnHexHor.Size = new System.Drawing.Size(164, 22);
+            this.rbtnHexHor.Size = new System.Drawing.Size(323, 40);
             this.rbtnHexHor.TabIndex = 12;
             this.rbtnHexHor.TabStop = true;
             this.rbtnHexHor.Text = "Hex Tile (Horizontal)";
@@ -364,9 +382,10 @@
             this.rbtnHexVer.AutoSize = true;
             this.rbtnHexVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbtnHexVer.ForeColor = System.Drawing.Color.Red;
-            this.rbtnHexVer.Location = new System.Drawing.Point(17, 31);
+            this.rbtnHexVer.Location = new System.Drawing.Point(34, 60);
+            this.rbtnHexVer.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnHexVer.Name = "rbtnHexVer";
-            this.rbtnHexVer.Size = new System.Drawing.Size(144, 22);
+            this.rbtnHexVer.Size = new System.Drawing.Size(288, 40);
             this.rbtnHexVer.TabIndex = 11;
             this.rbtnHexVer.TabStop = true;
             this.rbtnHexVer.Text = "Hex Tile (Vertical)";
@@ -377,9 +396,10 @@
             this.rbtnSquare.AutoSize = true;
             this.rbtnSquare.Checked = true;
             this.rbtnSquare.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnSquare.Location = new System.Drawing.Point(17, 3);
+            this.rbtnSquare.Location = new System.Drawing.Point(34, 6);
+            this.rbtnSquare.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnSquare.Name = "rbtnSquare";
-            this.rbtnSquare.Size = new System.Drawing.Size(103, 22);
+            this.rbtnSquare.Size = new System.Drawing.Size(204, 40);
             this.rbtnSquare.TabIndex = 10;
             this.rbtnSquare.TabStop = true;
             this.rbtnSquare.Text = "Square Tile";
@@ -389,9 +409,10 @@
             // 
             this.panel1.Controls.Add(this.rbtnMapInfoEdgeWall);
             this.panel1.Controls.Add(this.rbtnMapInfoTileWall);
-            this.panel1.Location = new System.Drawing.Point(3, 167);
+            this.panel1.Location = new System.Drawing.Point(6, 324);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(231, 61);
+            this.panel1.Size = new System.Drawing.Size(462, 118);
             this.panel1.TabIndex = 19;
             // 
             // rbtnMapInfoEdgeWall
@@ -399,9 +420,10 @@
             this.rbtnMapInfoEdgeWall.AutoSize = true;
             this.rbtnMapInfoEdgeWall.Checked = true;
             this.rbtnMapInfoEdgeWall.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnMapInfoEdgeWall.Location = new System.Drawing.Point(17, 31);
+            this.rbtnMapInfoEdgeWall.Location = new System.Drawing.Point(34, 60);
+            this.rbtnMapInfoEdgeWall.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnMapInfoEdgeWall.Name = "rbtnMapInfoEdgeWall";
-            this.rbtnMapInfoEdgeWall.Size = new System.Drawing.Size(104, 22);
+            this.rbtnMapInfoEdgeWall.Size = new System.Drawing.Size(204, 40);
             this.rbtnMapInfoEdgeWall.TabIndex = 20;
             this.rbtnMapInfoEdgeWall.TabStop = true;
             this.rbtnMapInfoEdgeWall.Text = "Edge Walls";
@@ -411,9 +433,10 @@
             // 
             this.rbtnMapInfoTileWall.AutoSize = true;
             this.rbtnMapInfoTileWall.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnMapInfoTileWall.Location = new System.Drawing.Point(17, 3);
+            this.rbtnMapInfoTileWall.Location = new System.Drawing.Point(34, 6);
+            this.rbtnMapInfoTileWall.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnMapInfoTileWall.Name = "rbtnMapInfoTileWall";
-            this.rbtnMapInfoTileWall.Size = new System.Drawing.Size(93, 22);
+            this.rbtnMapInfoTileWall.Size = new System.Drawing.Size(182, 40);
             this.rbtnMapInfoTileWall.TabIndex = 19;
             this.rbtnMapInfoTileWall.TabStop = true;
             this.rbtnMapInfoTileWall.Text = "Tile Walls";
@@ -423,9 +446,10 @@
             // 
             this.lblMapInfoWallType.AutoSize = true;
             this.lblMapInfoWallType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoWallType.Location = new System.Drawing.Point(0, 146);
+            this.lblMapInfoWallType.Location = new System.Drawing.Point(0, 283);
+            this.lblMapInfoWallType.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoWallType.Name = "lblMapInfoWallType";
-            this.lblMapInfoWallType.Size = new System.Drawing.Size(77, 18);
+            this.lblMapInfoWallType.Size = new System.Drawing.Size(156, 36);
             this.lblMapInfoWallType.TabIndex = 18;
             this.lblMapInfoWallType.Text = "Wall Type:";
             // 
@@ -433,9 +457,10 @@
             // 
             this.lblMapInfoHigh.AutoSize = true;
             this.lblMapInfoHigh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoHigh.Location = new System.Drawing.Point(17, 122);
+            this.lblMapInfoHigh.Location = new System.Drawing.Point(34, 236);
+            this.lblMapInfoHigh.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoHigh.Name = "lblMapInfoHigh";
-            this.lblMapInfoHigh.Size = new System.Drawing.Size(42, 18);
+            this.lblMapInfoHigh.Size = new System.Drawing.Size(85, 36);
             this.lblMapInfoHigh.TabIndex = 17;
             this.lblMapInfoHigh.Text = "High:";
             // 
@@ -443,18 +468,20 @@
             // 
             this.lblMapInfoWide.AutoSize = true;
             this.lblMapInfoWide.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoWide.Location = new System.Drawing.Point(17, 92);
+            this.lblMapInfoWide.Location = new System.Drawing.Point(34, 178);
+            this.lblMapInfoWide.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoWide.Name = "lblMapInfoWide";
-            this.lblMapInfoWide.Size = new System.Drawing.Size(46, 18);
+            this.lblMapInfoWide.Size = new System.Drawing.Size(92, 36);
             this.lblMapInfoWide.TabIndex = 16;
             this.lblMapInfoWide.Text = "Wide:";
             // 
             // btnResetCornerTiles
             // 
             this.btnResetCornerTiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResetCornerTiles.Location = new System.Drawing.Point(20, 371);
+            this.btnResetCornerTiles.Location = new System.Drawing.Point(40, 719);
+            this.btnResetCornerTiles.Margin = new System.Windows.Forms.Padding(6);
             this.btnResetCornerTiles.Name = "btnResetCornerTiles";
-            this.btnResetCornerTiles.Size = new System.Drawing.Size(185, 30);
+            this.btnResetCornerTiles.Size = new System.Drawing.Size(370, 58);
             this.btnResetCornerTiles.TabIndex = 15;
             this.btnResetCornerTiles.Text = "Reset Corner Tiles";
             this.btnResetCornerTiles.UseVisualStyleBackColor = true;
@@ -465,9 +492,10 @@
             this.chkbxCornerTiles.AutoCheck = false;
             this.chkbxCornerTiles.AutoSize = true;
             this.chkbxCornerTiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkbxCornerTiles.Location = new System.Drawing.Point(3, 343);
+            this.chkbxCornerTiles.Location = new System.Drawing.Point(6, 665);
+            this.chkbxCornerTiles.Margin = new System.Windows.Forms.Padding(6);
             this.chkbxCornerTiles.Name = "chkbxCornerTiles";
-            this.chkbxCornerTiles.Size = new System.Drawing.Size(111, 22);
+            this.chkbxCornerTiles.Size = new System.Drawing.Size(215, 40);
             this.chkbxCornerTiles.TabIndex = 14;
             this.chkbxCornerTiles.Text = "Corner Tiles";
             this.chkbxCornerTiles.UseVisualStyleBackColor = true;
@@ -476,9 +504,10 @@
             // 
             this.btnMapGenerate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMapGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapGenerate.Location = new System.Drawing.Point(116, 407);
+            this.btnMapGenerate.Location = new System.Drawing.Point(232, 789);
+            this.btnMapGenerate.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapGenerate.Name = "btnMapGenerate";
-            this.btnMapGenerate.Size = new System.Drawing.Size(118, 42);
+            this.btnMapGenerate.Size = new System.Drawing.Size(236, 81);
             this.btnMapGenerate.TabIndex = 13;
             this.btnMapGenerate.Text = "Generate";
             this.btnMapGenerate.UseVisualStyleBackColor = true;
@@ -488,9 +517,10 @@
             // 
             this.btnUploadMapImage.AutoSize = true;
             this.btnUploadMapImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUploadMapImage.Location = new System.Drawing.Point(3, 3);
+            this.btnUploadMapImage.Location = new System.Drawing.Point(6, 6);
+            this.btnUploadMapImage.Margin = new System.Windows.Forms.Padding(6);
             this.btnUploadMapImage.Name = "btnUploadMapImage";
-            this.btnUploadMapImage.Size = new System.Drawing.Size(112, 32);
+            this.btnUploadMapImage.Size = new System.Drawing.Size(214, 61);
             this.btnUploadMapImage.TabIndex = 1;
             this.btnUploadMapImage.Text = "Upload Image";
             this.btnUploadMapImage.UseVisualStyleBackColor = true;
@@ -501,10 +531,11 @@
             this.txtbxMapImageFile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbxMapImageFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxMapImageFile.Location = new System.Drawing.Point(20, 41);
+            this.txtbxMapImageFile.Location = new System.Drawing.Point(40, 79);
+            this.txtbxMapImageFile.Margin = new System.Windows.Forms.Padding(6);
             this.txtbxMapImageFile.Name = "txtbxMapImageFile";
             this.txtbxMapImageFile.ReadOnly = true;
-            this.txtbxMapImageFile.Size = new System.Drawing.Size(214, 24);
+            this.txtbxMapImageFile.Size = new System.Drawing.Size(424, 41);
             this.txtbxMapImageFile.TabIndex = 2;
             this.txtbxMapImageFile.Text = "file ...";
             // 
@@ -512,9 +543,10 @@
             // 
             this.lblMapInfoNumTileWide.AutoSize = true;
             this.lblMapInfoNumTileWide.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoNumTileWide.Location = new System.Drawing.Point(0, 68);
+            this.lblMapInfoNumTileWide.Location = new System.Drawing.Point(0, 132);
+            this.lblMapInfoNumTileWide.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoNumTileWide.Name = "lblMapInfoNumTileWide";
-            this.lblMapInfoNumTileWide.Size = new System.Drawing.Size(117, 18);
+            this.lblMapInfoNumTileWide.Size = new System.Drawing.Size(232, 36);
             this.lblMapInfoNumTileWide.TabIndex = 3;
             this.lblMapInfoNumTileWide.Text = "Number of Tiles:";
             // 
@@ -523,18 +555,20 @@
             this.txtbxNumTileWide.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbxNumTileWide.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxNumTileWide.Location = new System.Drawing.Point(69, 89);
+            this.txtbxNumTileWide.Location = new System.Drawing.Point(138, 172);
+            this.txtbxNumTileWide.Margin = new System.Windows.Forms.Padding(6);
             this.txtbxNumTileWide.Name = "txtbxNumTileWide";
-            this.txtbxNumTileWide.Size = new System.Drawing.Size(165, 24);
+            this.txtbxNumTileWide.Size = new System.Drawing.Size(326, 41);
             this.txtbxNumTileWide.TabIndex = 4;
             // 
             // lblMapInfoType
             // 
             this.lblMapInfoType.AutoSize = true;
             this.lblMapInfoType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoType.Location = new System.Drawing.Point(-1, 231);
+            this.lblMapInfoType.Location = new System.Drawing.Point(-2, 448);
+            this.lblMapInfoType.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoType.Name = "lblMapInfoType";
-            this.lblMapInfoType.Size = new System.Drawing.Size(77, 18);
+            this.lblMapInfoType.Size = new System.Drawing.Size(155, 36);
             this.lblMapInfoType.TabIndex = 9;
             this.lblMapInfoType.Text = "Map Type:";
             // 
@@ -542,9 +576,10 @@
             // 
             this.lblMapInfoNumTileHigh.AutoSize = true;
             this.lblMapInfoNumTileHigh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoNumTileHigh.Location = new System.Drawing.Point(0, 116);
+            this.lblMapInfoNumTileHigh.Location = new System.Drawing.Point(0, 225);
+            this.lblMapInfoNumTileHigh.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoNumTileHigh.Name = "lblMapInfoNumTileHigh";
-            this.lblMapInfoNumTileHigh.Size = new System.Drawing.Size(0, 18);
+            this.lblMapInfoNumTileHigh.Size = new System.Drawing.Size(0, 36);
             this.lblMapInfoNumTileHigh.TabIndex = 5;
             // 
             // txtbxNumTileHigh
@@ -552,9 +587,10 @@
             this.txtbxNumTileHigh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbxNumTileHigh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxNumTileHigh.Location = new System.Drawing.Point(69, 119);
+            this.txtbxNumTileHigh.Location = new System.Drawing.Point(138, 231);
+            this.txtbxNumTileHigh.Margin = new System.Windows.Forms.Padding(6);
             this.txtbxNumTileHigh.Name = "txtbxNumTileHigh";
-            this.txtbxNumTileHigh.Size = new System.Drawing.Size(165, 24);
+            this.txtbxNumTileHigh.Size = new System.Drawing.Size(326, 41);
             this.txtbxNumTileHigh.TabIndex = 6;
             // 
             // lblMapInfoInstructions
@@ -563,9 +599,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMapInfoInstructions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblMapInfoInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapInfoInstructions.Location = new System.Drawing.Point(6, 3);
+            this.lblMapInfoInstructions.Location = new System.Drawing.Point(12, 6);
+            this.lblMapInfoInstructions.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapInfoInstructions.Name = "lblMapInfoInstructions";
-            this.lblMapInfoInstructions.Size = new System.Drawing.Size(239, 160);
+            this.lblMapInfoInstructions.Size = new System.Drawing.Size(476, 308);
             this.lblMapInfoInstructions.TabIndex = 0;
             this.lblMapInfoInstructions.Text = "Instructions\r\n    1. Upload map image\r\n    2. Fill in Information below\r\n    3. S" +
     "elect corner tiles in map image\r\n    4. Select map type\r\n    5. Click \'generate\'" +
@@ -575,10 +612,11 @@
             // 
             this.tabMapDoor.Controls.Add(this.pnlMapDoorsControls);
             this.tabMapDoor.Controls.Add(this.lblMapDoorInstructions);
-            this.tabMapDoor.Location = new System.Drawing.Point(4, 25);
+            this.tabMapDoor.Location = new System.Drawing.Point(10, 48);
+            this.tabMapDoor.Margin = new System.Windows.Forms.Padding(6);
             this.tabMapDoor.Name = "tabMapDoor";
-            this.tabMapDoor.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMapDoor.Size = new System.Drawing.Size(251, 626);
+            this.tabMapDoor.Padding = new System.Windows.Forms.Padding(6);
+            this.tabMapDoor.Size = new System.Drawing.Size(498, 1211);
             this.tabMapDoor.TabIndex = 1;
             this.tabMapDoor.Text = "Doors";
             this.tabMapDoor.UseVisualStyleBackColor = true;
@@ -592,33 +630,34 @@
             this.pnlMapDoorsControls.Controls.Add(this.btnMapDoorRemove);
             this.pnlMapDoorsControls.Controls.Add(this.btnMapDoorAdd);
             this.pnlMapDoorsControls.Controls.Add(this.lstbxMapDoors);
-            this.pnlMapDoorsControls.Location = new System.Drawing.Point(6, 166);
+            this.pnlMapDoorsControls.Location = new System.Drawing.Point(12, 322);
+            this.pnlMapDoorsControls.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapDoorsControls.Name = "pnlMapDoorsControls";
-            this.pnlMapDoorsControls.Size = new System.Drawing.Size(239, 454);
+            this.pnlMapDoorsControls.Size = new System.Drawing.Size(476, 878);
             this.pnlMapDoorsControls.TabIndex = 1;
             // 
             // btnMapDoorRemove
             // 
             this.btnMapDoorRemove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMapDoorRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapDoorRemove.Location = new System.Drawing.Point(121, 3);
+            this.btnMapDoorRemove.Location = new System.Drawing.Point(242, 6);
+            this.btnMapDoorRemove.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapDoorRemove.Name = "btnMapDoorRemove";
-            this.btnMapDoorRemove.Size = new System.Drawing.Size(113, 30);
+            this.btnMapDoorRemove.Size = new System.Drawing.Size(226, 58);
             this.btnMapDoorRemove.TabIndex = 2;
             this.btnMapDoorRemove.Text = "Remove";
             this.btnMapDoorRemove.UseVisualStyleBackColor = true;
-            this.btnMapDoorRemove.Click += new System.EventHandler(this.btnMapDoorRemove_Click);
             // 
             // btnMapDoorAdd
             // 
             this.btnMapDoorAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapDoorAdd.Location = new System.Drawing.Point(3, 3);
+            this.btnMapDoorAdd.Location = new System.Drawing.Point(6, 6);
+            this.btnMapDoorAdd.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapDoorAdd.Name = "btnMapDoorAdd";
-            this.btnMapDoorAdd.Size = new System.Drawing.Size(112, 30);
+            this.btnMapDoorAdd.Size = new System.Drawing.Size(224, 58);
             this.btnMapDoorAdd.TabIndex = 1;
             this.btnMapDoorAdd.Text = "Add";
             this.btnMapDoorAdd.UseVisualStyleBackColor = true;
-            this.btnMapDoorAdd.Click += new System.EventHandler(this.btnMapDoorAdd_Click);
             // 
             // lstbxMapDoors
             // 
@@ -627,10 +666,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lstbxMapDoors.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstbxMapDoors.FormattingEnabled = true;
-            this.lstbxMapDoors.ItemHeight = 20;
-            this.lstbxMapDoors.Location = new System.Drawing.Point(3, 39);
+            this.lstbxMapDoors.ItemHeight = 39;
+            this.lstbxMapDoors.Location = new System.Drawing.Point(6, 76);
+            this.lstbxMapDoors.Margin = new System.Windows.Forms.Padding(6);
             this.lstbxMapDoors.Name = "lstbxMapDoors";
-            this.lstbxMapDoors.Size = new System.Drawing.Size(231, 404);
+            this.lstbxMapDoors.Size = new System.Drawing.Size(458, 745);
             this.lstbxMapDoors.TabIndex = 0;
             // 
             // lblMapDoorInstructions
@@ -639,9 +679,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMapDoorInstructions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblMapDoorInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapDoorInstructions.Location = new System.Drawing.Point(6, 3);
+            this.lblMapDoorInstructions.Location = new System.Drawing.Point(12, 6);
+            this.lblMapDoorInstructions.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapDoorInstructions.Name = "lblMapDoorInstructions";
-            this.lblMapDoorInstructions.Size = new System.Drawing.Size(242, 160);
+            this.lblMapDoorInstructions.Size = new System.Drawing.Size(482, 308);
             this.lblMapDoorInstructions.TabIndex = 0;
             this.lblMapDoorInstructions.Text = "Instructions";
             // 
@@ -649,10 +690,11 @@
             // 
             this.tabMapJump.Controls.Add(this.pnlMapJumpControls);
             this.tabMapJump.Controls.Add(this.lblMapJumpInstructions);
-            this.tabMapJump.Location = new System.Drawing.Point(4, 25);
+            this.tabMapJump.Location = new System.Drawing.Point(10, 48);
+            this.tabMapJump.Margin = new System.Windows.Forms.Padding(6);
             this.tabMapJump.Name = "tabMapJump";
-            this.tabMapJump.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMapJump.Size = new System.Drawing.Size(251, 626);
+            this.tabMapJump.Padding = new System.Windows.Forms.Padding(6);
+            this.tabMapJump.Size = new System.Drawing.Size(498, 1211);
             this.tabMapJump.TabIndex = 2;
             this.tabMapJump.Text = "Jumps";
             this.tabMapJump.UseVisualStyleBackColor = true;
@@ -672,30 +714,32 @@
             this.pnlMapJumpControls.Controls.Add(this.btnMapJumpSelectTileB);
             this.pnlMapJumpControls.Controls.Add(this.txtbxMapJumpTileA);
             this.pnlMapJumpControls.Controls.Add(this.btnMapJumpSelectPointA);
-            this.pnlMapJumpControls.Location = new System.Drawing.Point(6, 166);
+            this.pnlMapJumpControls.Location = new System.Drawing.Point(12, 322);
+            this.pnlMapJumpControls.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapJumpControls.Name = "pnlMapJumpControls";
-            this.pnlMapJumpControls.Size = new System.Drawing.Size(239, 454);
+            this.pnlMapJumpControls.Size = new System.Drawing.Size(476, 878);
             this.pnlMapJumpControls.TabIndex = 1;
             // 
             // btnMapJumpCreate
             // 
             this.btnMapJumpCreate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMapJumpCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapJumpCreate.Location = new System.Drawing.Point(111, 407);
+            this.btnMapJumpCreate.Location = new System.Drawing.Point(222, 789);
+            this.btnMapJumpCreate.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapJumpCreate.Name = "btnMapJumpCreate";
-            this.btnMapJumpCreate.Size = new System.Drawing.Size(123, 42);
+            this.btnMapJumpCreate.Size = new System.Drawing.Size(246, 81);
             this.btnMapJumpCreate.TabIndex = 8;
             this.btnMapJumpCreate.Text = "Create Jump";
             this.btnMapJumpCreate.UseVisualStyleBackColor = true;
-            this.btnMapJumpCreate.Click += new System.EventHandler(this.btnJump_Click);
             // 
             // rbtnMapJumpNo
             // 
             this.rbtnMapJumpNo.AutoSize = true;
             this.rbtnMapJumpNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnMapJumpNo.Location = new System.Drawing.Point(20, 152);
+            this.rbtnMapJumpNo.Location = new System.Drawing.Point(40, 294);
+            this.rbtnMapJumpNo.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnMapJumpNo.Name = "rbtnMapJumpNo";
-            this.rbtnMapJumpNo.Size = new System.Drawing.Size(51, 24);
+            this.rbtnMapJumpNo.Size = new System.Drawing.Size(98, 43);
             this.rbtnMapJumpNo.TabIndex = 7;
             this.rbtnMapJumpNo.TabStop = true;
             this.rbtnMapJumpNo.Text = "No";
@@ -705,9 +749,10 @@
             // 
             this.rbtnMapJumpYes2.AutoSize = true;
             this.rbtnMapJumpYes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnMapJumpYes2.Location = new System.Drawing.Point(20, 122);
+            this.rbtnMapJumpYes2.Location = new System.Drawing.Point(40, 236);
+            this.rbtnMapJumpYes2.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnMapJumpYes2.Name = "rbtnMapJumpYes2";
-            this.rbtnMapJumpYes2.Size = new System.Drawing.Size(118, 24);
+            this.rbtnMapJumpYes2.Size = new System.Drawing.Size(227, 43);
             this.rbtnMapJumpYes2.TabIndex = 6;
             this.rbtnMapJumpYes2.TabStop = true;
             this.rbtnMapJumpYes2.Text = "Yes (A < B)";
@@ -717,9 +762,10 @@
             // 
             this.rbtnMapJumpYes1.AutoSize = true;
             this.rbtnMapJumpYes1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnMapJumpYes1.Location = new System.Drawing.Point(20, 95);
+            this.rbtnMapJumpYes1.Location = new System.Drawing.Point(40, 184);
+            this.rbtnMapJumpYes1.Margin = new System.Windows.Forms.Padding(6);
             this.rbtnMapJumpYes1.Name = "rbtnMapJumpYes1";
-            this.rbtnMapJumpYes1.Size = new System.Drawing.Size(118, 24);
+            this.rbtnMapJumpYes1.Size = new System.Drawing.Size(227, 43);
             this.rbtnMapJumpYes1.TabIndex = 5;
             this.rbtnMapJumpYes1.TabStop = true;
             this.rbtnMapJumpYes1.Text = "Yes (A > B)";
@@ -729,9 +775,10 @@
             // 
             this.lblMapJumpOneWay.AutoSize = true;
             this.lblMapJumpOneWay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapJumpOneWay.Location = new System.Drawing.Point(3, 72);
+            this.lblMapJumpOneWay.Location = new System.Drawing.Point(6, 140);
+            this.lblMapJumpOneWay.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapJumpOneWay.Name = "lblMapJumpOneWay";
-            this.lblMapJumpOneWay.Size = new System.Drawing.Size(84, 20);
+            this.lblMapJumpOneWay.Size = new System.Drawing.Size(172, 39);
             this.lblMapJumpOneWay.TabIndex = 4;
             this.lblMapJumpOneWay.Text = "One-way?";
             // 
@@ -740,42 +787,44 @@
             this.txtbxMapJumpTileB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbxMapJumpTileB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxMapJumpTileB.Location = new System.Drawing.Point(134, 39);
+            this.txtbxMapJumpTileB.Location = new System.Drawing.Point(268, 76);
+            this.txtbxMapJumpTileB.Margin = new System.Windows.Forms.Padding(6);
             this.txtbxMapJumpTileB.Name = "txtbxMapJumpTileB";
-            this.txtbxMapJumpTileB.Size = new System.Drawing.Size(100, 27);
+            this.txtbxMapJumpTileB.Size = new System.Drawing.Size(196, 46);
             this.txtbxMapJumpTileB.TabIndex = 3;
             // 
             // btnMapJumpSelectTileB
             // 
             this.btnMapJumpSelectTileB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapJumpSelectTileB.Location = new System.Drawing.Point(3, 39);
+            this.btnMapJumpSelectTileB.Location = new System.Drawing.Point(6, 76);
+            this.btnMapJumpSelectTileB.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapJumpSelectTileB.Name = "btnMapJumpSelectTileB";
-            this.btnMapJumpSelectTileB.Size = new System.Drawing.Size(125, 30);
+            this.btnMapJumpSelectTileB.Size = new System.Drawing.Size(250, 58);
             this.btnMapJumpSelectTileB.TabIndex = 2;
             this.btnMapJumpSelectTileB.Text = "Select Tile B";
             this.btnMapJumpSelectTileB.UseVisualStyleBackColor = true;
-            this.btnMapJumpSelectTileB.Click += new System.EventHandler(this.btnPointB_Click);
             // 
             // txtbxMapJumpTileA
             // 
             this.txtbxMapJumpTileA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbxMapJumpTileA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxMapJumpTileA.Location = new System.Drawing.Point(134, 5);
+            this.txtbxMapJumpTileA.Location = new System.Drawing.Point(268, 10);
+            this.txtbxMapJumpTileA.Margin = new System.Windows.Forms.Padding(6);
             this.txtbxMapJumpTileA.Name = "txtbxMapJumpTileA";
-            this.txtbxMapJumpTileA.Size = new System.Drawing.Size(100, 27);
+            this.txtbxMapJumpTileA.Size = new System.Drawing.Size(196, 46);
             this.txtbxMapJumpTileA.TabIndex = 1;
             // 
             // btnMapJumpSelectPointA
             // 
             this.btnMapJumpSelectPointA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMapJumpSelectPointA.Location = new System.Drawing.Point(3, 3);
+            this.btnMapJumpSelectPointA.Location = new System.Drawing.Point(6, 6);
+            this.btnMapJumpSelectPointA.Margin = new System.Windows.Forms.Padding(6);
             this.btnMapJumpSelectPointA.Name = "btnMapJumpSelectPointA";
-            this.btnMapJumpSelectPointA.Size = new System.Drawing.Size(125, 30);
+            this.btnMapJumpSelectPointA.Size = new System.Drawing.Size(250, 58);
             this.btnMapJumpSelectPointA.TabIndex = 0;
             this.btnMapJumpSelectPointA.Text = "Select Tile A";
             this.btnMapJumpSelectPointA.UseVisualStyleBackColor = true;
-            this.btnMapJumpSelectPointA.Click += new System.EventHandler(this.btnPointA_Click);
             // 
             // lblMapJumpInstructions
             // 
@@ -783,9 +832,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMapJumpInstructions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblMapJumpInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapJumpInstructions.Location = new System.Drawing.Point(6, 3);
+            this.lblMapJumpInstructions.Location = new System.Drawing.Point(12, 6);
+            this.lblMapJumpInstructions.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapJumpInstructions.Name = "lblMapJumpInstructions";
-            this.lblMapJumpInstructions.Size = new System.Drawing.Size(239, 160);
+            this.lblMapJumpInstructions.Size = new System.Drawing.Size(476, 308);
             this.lblMapJumpInstructions.TabIndex = 0;
             this.lblMapJumpInstructions.Text = "Instructions";
             // 
@@ -793,10 +843,11 @@
             // 
             this.tabMapSave.Controls.Add(this.pnlMapSaveControls);
             this.tabMapSave.Controls.Add(this.lblMapSaveInstructions);
-            this.tabMapSave.Location = new System.Drawing.Point(4, 25);
+            this.tabMapSave.Location = new System.Drawing.Point(10, 48);
+            this.tabMapSave.Margin = new System.Windows.Forms.Padding(6);
             this.tabMapSave.Name = "tabMapSave";
-            this.tabMapSave.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMapSave.Size = new System.Drawing.Size(251, 626);
+            this.tabMapSave.Padding = new System.Windows.Forms.Padding(6);
+            this.tabMapSave.Size = new System.Drawing.Size(498, 1211);
             this.tabMapSave.TabIndex = 3;
             this.tabMapSave.Text = "Save";
             this.tabMapSave.UseVisualStyleBackColor = true;
@@ -809,9 +860,10 @@
             this.pnlMapSaveControls.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMapSaveControls.Controls.Add(this.txtbxMapSaveName);
             this.pnlMapSaveControls.Controls.Add(this.lblMapSaveName);
-            this.pnlMapSaveControls.Location = new System.Drawing.Point(6, 166);
+            this.pnlMapSaveControls.Location = new System.Drawing.Point(12, 322);
+            this.pnlMapSaveControls.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapSaveControls.Name = "pnlMapSaveControls";
-            this.pnlMapSaveControls.Size = new System.Drawing.Size(239, 457);
+            this.pnlMapSaveControls.Size = new System.Drawing.Size(476, 884);
             this.pnlMapSaveControls.TabIndex = 1;
             // 
             // txtbxMapSaveName
@@ -819,18 +871,20 @@
             this.txtbxMapSaveName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtbxMapSaveName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxMapSaveName.Location = new System.Drawing.Point(20, 23);
+            this.txtbxMapSaveName.Location = new System.Drawing.Point(40, 45);
+            this.txtbxMapSaveName.Margin = new System.Windows.Forms.Padding(6);
             this.txtbxMapSaveName.Name = "txtbxMapSaveName";
-            this.txtbxMapSaveName.Size = new System.Drawing.Size(214, 24);
+            this.txtbxMapSaveName.Size = new System.Drawing.Size(424, 41);
             this.txtbxMapSaveName.TabIndex = 8;
             // 
             // lblMapSaveName
             // 
             this.lblMapSaveName.AutoSize = true;
             this.lblMapSaveName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapSaveName.Location = new System.Drawing.Point(2, 2);
+            this.lblMapSaveName.Location = new System.Drawing.Point(4, 4);
+            this.lblMapSaveName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapSaveName.Name = "lblMapSaveName";
-            this.lblMapSaveName.Size = new System.Drawing.Size(85, 18);
+            this.lblMapSaveName.Size = new System.Drawing.Size(166, 36);
             this.lblMapSaveName.TabIndex = 7;
             this.lblMapSaveName.Text = "Map Name:";
             // 
@@ -840,31 +894,35 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMapSaveInstructions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblMapSaveInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMapSaveInstructions.Location = new System.Drawing.Point(6, 3);
+            this.lblMapSaveInstructions.Location = new System.Drawing.Point(12, 6);
+            this.lblMapSaveInstructions.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMapSaveInstructions.Name = "lblMapSaveInstructions";
-            this.lblMapSaveInstructions.Size = new System.Drawing.Size(239, 160);
+            this.lblMapSaveInstructions.Size = new System.Drawing.Size(476, 308);
             this.lblMapSaveInstructions.TabIndex = 0;
             this.lblMapSaveInstructions.Text = "Instructions";
             // 
             // pnlMapPaneImage
             // 
+            this.pnlMapPaneImage.AutoScroll = true;
             this.pnlMapPaneImage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.pnlMapPaneImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pnlMapPaneImage.Location = new System.Drawing.Point(274, 3);
+            this.pnlMapPaneImage.Location = new System.Drawing.Point(548, 6);
+            this.pnlMapPaneImage.Margin = new System.Windows.Forms.Padding(6);
             this.pnlMapPaneImage.Name = "pnlMapPaneImage";
-            this.pnlMapPaneImage.Size = new System.Drawing.Size(523, 794);
+            this.pnlMapPaneImage.Size = new System.Drawing.Size(1046, 1538);
             this.pnlMapPaneImage.TabIndex = 2;
             this.pnlMapPaneImage.Click += new System.EventHandler(this.pnlMapPaneImage_Click);
             // 
             // MapPane
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMapPaneImage);
             this.Controls.Add(this.pnlMapPaneControls);
             this.Controls.Add(this.pnlMapPaneCompass);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MapPane";
-            this.Size = new System.Drawing.Size(800, 872);
+            this.Size = new System.Drawing.Size(1600, 1690);
             this.Resize += new System.EventHandler(this.MapPane_Resize);
             this.pnlMapPaneCompass.ResumeLayout(false);
             this.tlpnlCompass.ResumeLayout(false);
