@@ -51,6 +51,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HorHexTileCalculations.cs" />
     <Compile Include="MapPane.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -65,12 +66,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareTileCalculations.cs" />
     <Compile Include="TopMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TopMenu.Designer.cs">
       <DependentUpon>TopMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="VerHexTileCalculations.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
